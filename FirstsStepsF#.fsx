@@ -5,7 +5,11 @@ printfn "Hello from F#"
 // Install SDK .NET
 // https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#register-the-microsoft-package-repository
 
+// You can use VS Code:
 // https://learn.microsoft.com/pt-br/dotnet/fsharp/get-started/install-fsharp#install-f-with-visual-studio-code
+
+// You can also use the terminal:
+// https://fsharp.org/use/linux/
 
 // Language TOUR:
 // https://learn.microsoft.com/en-us/dotnet/fsharp/tour
