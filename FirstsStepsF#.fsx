@@ -1,6 +1,6 @@
 printfn "Hello from F#"
 
-// Paths:
+// Steps:
 
 // Install SDK .NET
 // https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#register-the-microsoft-package-repository
