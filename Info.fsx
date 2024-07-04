@@ -8,6 +8,7 @@ open System
 
 // definição de função
 let hello() = 
+    // Indentação é relevante
     printf "Digite o seu nome :"
 
     let name = Console.ReadLine()
