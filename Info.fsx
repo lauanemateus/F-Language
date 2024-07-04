@@ -35,7 +35,13 @@ let do_func() =
     
 do_func()
 // -------------------------------------
-
+// Função recursiva
+let rec fat x =
+    if x < 1 then 1
+    else x * fat(x - 1)
+    
+printfn "%i" (fat 5)
+// -------------------------------------
 
 // -> Apresenta registros:
 type R = 
