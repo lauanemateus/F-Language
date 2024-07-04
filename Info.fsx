@@ -2,7 +2,7 @@
 // -> Linguagem multiparadigma. Paradigmas suportados: funcional, imperativo e orientado a objetos
 // -> Open source e cross-plataform
 // -> Apresenta registros:
-// ----------/--------------
+// -------------------------
 // Exemplo de registro:
 type R = 
         { Name : string 
