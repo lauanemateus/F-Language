@@ -43,6 +43,17 @@ let rec fat x =
 printfn "%i" (fat 5)
 // -------------------------------------
 
+// "Switch case super poderoso"
+let describeNumber x =
+    match x with
+    | 1 -> "One"
+    | 2 -> "Two"
+    | _ -> "Other"
+
+printfn "%s" (describeNumber 2)
+// -------------------------------------
+
+
 // -> Apresenta registros:
 type R = 
         { Name : string 
