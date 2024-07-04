@@ -3,7 +3,7 @@
 // -> Open source e cross-plataform
 
 // -> Exemplo de código:
--------------------------------------
+// -------------------------------------
 open System
 
 // definição de função
@@ -16,7 +16,7 @@ let hello() =
 
 // chamada da função
 hello()
--------------------------------------
+// -------------------------------------
 
 
 // -> Apresenta registros:
