@@ -52,8 +52,12 @@ let describeNumber x =
 
 printfn "%s" (describeNumber 2)
 // -------------------------------------
-
-
+// While
+let mutable i = 1
+while i <= 5 do
+    printfn "%d" i
+    i <- i + 1
+// -------------------------------------
 // -> Apresenta registros:
 type R = 
         { Name : string 
