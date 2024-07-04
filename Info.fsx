@@ -28,6 +28,13 @@ let v_mutaveis() =
 
 v_mutaveis()
 // -------------------------------------
+let do_func() =
+    // (Passagem de parâmetros e retorno)
+    let get_sum (x: int, y:int) : int = x + y
+    printf "5 + 7 = %i" (get_sum(5,7))
+    
+do_func()
+// -------------------------------------
 
 
 // -> Apresenta registros:
