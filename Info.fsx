@@ -19,6 +19,15 @@ let hello() =
 // chamada da função
 hello()
 // -------------------------------------
+// Variáveis mutáveis
+let v_mutaveis() = 
+    let mutable peso = 175
+    peso <- 170
+
+    printfn "Peso: %i" peso
+
+v_mutaveis()
+// -------------------------------------
 
 
 // -> Apresenta registros:
