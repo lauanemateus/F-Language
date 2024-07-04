@@ -2,6 +2,23 @@
 // -> Linguagem multiparadigma. Paradigmas suportados: funcional, imperativo e orientado a objetos
 // -> Open source e cross-plataform
 
+// -> Exemplo de código:
+-------------------------------------
+open System
+
+// definição de função
+let hello() = 
+    printf "Digite o seu nome :"
+
+    let name = Console.ReadLine()
+
+    printfn "%s" name
+
+// chamada da função
+hello()
+-------------------------------------
+
+
 // -> Apresenta registros:
 type R = 
         { Name : string 
