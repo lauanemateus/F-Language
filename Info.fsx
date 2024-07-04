@@ -14,7 +14,7 @@ let hello() =
 
     let name = Console.ReadLine()
 
-    printfn "%s" name
+    printfn "Hello %s" name
 
 // chamada da função
 hello()
