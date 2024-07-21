@@ -11,6 +11,8 @@ printfn "Hello from F#"
 // You can also use the terminal:
 // https://fsharp.org/use/linux/
 
+// Sometimes, compiling an .fsx file can give errors because the file may be inside a project, as it provides an organized structure and facilitates the management of dependencies, libraries and configurations
+
 // Language TOUR:
 // https://learn.microsoft.com/en-us/dotnet/fsharp/tour
 
