@@ -11,7 +11,13 @@ printfn "Hello from F#"
 // You can also use the terminal:
 // https://fsharp.org/use/linux/
 
-// Sometimes, compiling an .fsx file can give errors because the file may be inside a project, as it provides an organized structure and facilitates the management of dependencies, libraries and configurations
+// Sometimes, compiling an .fsx file can give errors because the file may be inside a project, 
+// as it provides an organized structure and facilitates the management of dependencies, libraries and configurations
+
+// To create a F# project, follow these steps:
+// 1°: On terminal, write this command: "dotnet new console -lang "F#" -o MeuProjeto"
+// 2°: Write your code on the created file: .fx
+// 3°: On terminal, write this command: "dotnet run"
 
 // Language TOUR:
 // https://learn.microsoft.com/en-us/dotnet/fsharp/tour
